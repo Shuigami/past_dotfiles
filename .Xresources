@@ -1,0 +1,64 @@
+!black
+URxvt.color0: #777777
+URxvt.color8: #777777
+!red
+URxvt.color1: #a19488
+URxvt.color9: #a19488
+!green
+URxvt.color2: #88a194
+URxvt.color10: #88a194
+!yellow
+URxvt.color3: #95a188
+URxvt.color11: #95a188
+!blue
+URxvt.color4: #9488a1
+URxvt.color12: #9488a1
+!magenta
+URxvt.color5: #a18895
+URxvt.color13: #a18895
+!cyan
+URxvt.color6: #8895a1
+URxvt.color14: #8895a1
+!white
+URxvt.color7: #d9d9d9
+URxvt.color15: #d9d9d9
+
+URxvt.intensityStyles:	false
+URxvt*background: #212121
+URxvt*foreground: #D2C5BC
+URxvt.depth:		32
+URxvt.font: 		xft:Ubuntu Mono:size=13
+URxvt.scrollBar:	false
+URxvt.internalBorder:   100
+URxvt.transparent:      false
+URxvt.shading:          10
+
+!! Extensions
+URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
+URxvt.colorUL:		#C4A000
+!! url-select
+URxvt.keysym.M-u:	perl:url-select:select_next
+URxvt.url-select.launcher: linkhandler
+URxvt.url-select.underline: true
+!! keyboard-select:
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+!! resize-font
+URxvt.resize-font.smaller:	C-Down
+URxvt.resize-font.bigger:	C-Up
+!! Matcher
+URxvt.url-launcher:	linkhandler
+URxvt.matcher.button:	1
+
+rofi.modi:			ssh,window,drun,run
+rofi.color-enabled:	true
+rofi.color-window:	#353535, #353535, #353535
+rofi.color-normal:	#353535, #FFFFFF, #3D3D3D, #E95420, #353535
+!rofi.color-active:	#002b37, #008ed4, #003643, #008ed4, #66c6ff
+!rofi.color-urgent:	#002b37, #da4281, #003643, #008ed4, #890661
+
+! rofi.fake-transparency:	false
+!rofi.lines:		8
+! rofi.bw:		0
+! rofi.opacity:		"10"
+rofi.hide-scrollbar:	true
+! rofi.width:		30
