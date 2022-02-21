@@ -3,10 +3,10 @@ My dotfiles
 
 Screenshots
 ---
-Background :
+**Background :**
 ![Alt text](Wallpaper/bg.jpg?raw=true "Background")
 
-Blurry background (used for lock screen) :
+**Blurry background (used for lock screen) :**
 ![Alt text](Wallpaper/bg_blurred_sized.png?raw=true "Blurry background")
 
 Directories
