@@ -13,5 +13,4 @@ The files `.vimrc` and `.Xresources` must be in your home folder, the folder nam
       i3/
       polybar/
       rofi/
-      betterlockscreenrc
 ```
