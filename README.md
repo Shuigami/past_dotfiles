@@ -2,10 +2,12 @@ My dotfiles
 ===
 Directory
 ---
-The files `.vimrc` and `.Xresources` must be in your home folder, the rest should be in your `.config` folder as followed :
+The files `.vimrc` and `.Xresources` must be in your home folder, the folder named `Wallpaper` should be in your `Pictures` folder the rest should be in your `.config` folder as followed :
 ```
 ~/.vimrc
   .Xresources
+  Pictures/
+      Wallpaper/
   .config/
       BetterDiscord/
       i3/
