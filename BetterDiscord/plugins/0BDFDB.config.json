@@ -1,0 +1,20 @@
+{
+	"changeLogs": {
+		"BDFDB": "2.1.7",
+		"CreationDate": "1.4.6",
+		"ShowHiddenChannels": "3.0.6",
+		"SpotifyControls": "1.2.4"
+	},
+	"choices": {
+		"toastPosition": "right"
+	},
+	"general": {
+		"showToasts": true,
+		"showSupportBadges": true,
+		"useChromium": false
+	},
+	"hashes": {
+		"0BDFDB.data.json": "7b474485897598f7a0ac3a258bb9c102edaefb2c",
+		"0BDFDB.raw.css": "a1036e10077b9457f3903795204f7dbd91d7646d"
+	}
+}
