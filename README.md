@@ -3,6 +3,13 @@ My dotfiles
 Requirement
 ---
 
+The things that need to be install :
+- Urxvt
+- vim
+- rofi
+- polybar
+- betterdiscord
+
 Screenshots
 ---
 Here are some screenshot of waht my config looks like :
