@@ -14,3 +14,4 @@ The files `.vimrc` and `.Xresources` must be in your home folder, the folder nam
       polybar/
       rofi/
 ```
+![Alt text](Wallpaper/bg.jpg?raw=true "Title")
