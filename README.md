@@ -7,9 +7,17 @@ Screenshots
 
 ![Alt text](Wallpaper/bg.jpg?raw=true "Background")
 
+
 **Blurry background (used for lock screen) :**
 
 ![Alt text](Wallpaper/bg_blurred_sized.png?raw=true "Blurry background")
+
+
+
+**Global looking :**
+
+![Alt text](screenshot/screenshot.png?raw=true "screenshot")
+
 
 Directories
 ---
