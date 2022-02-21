@@ -1,7 +1,6 @@
 My dotfiles
 ===
 
----
 Screenshots
 ---
 **Background :**
