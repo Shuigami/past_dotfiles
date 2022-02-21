@@ -3,7 +3,11 @@ My dotfiles
 
 Screenshots
 ---
+Background :
 ![Alt text](Wallpaper/bg.jpg?raw=true "Title")
+
+Blurry background :
+![Alt text](Wallpaper/bg_blurry_sized.jpg?raw=true "Title")
 
 Directories
 ---
