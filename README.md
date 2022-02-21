@@ -39,3 +39,4 @@ The files `.vimrc` and `.Xresources` must be in your home folder, the folder nam
       polybar/
       rofi/
 ```
+> **WARNING**: Be careful, or else!
