@@ -15,7 +15,7 @@ URxvt.color4: #9488a1
 URxvt.color12: #9488a1
 !magenta
 URxvt.color5: #a18895
-URxvt.color13: #a18895
+URxvt.color13: #a19488
 !cyan
 URxvt.color6: #8895a1
 URxvt.color14: #8895a1
@@ -29,7 +29,7 @@ URxvt*foreground: #D2C5BC
 URxvt.depth:		32
 URxvt.font: 		xft:Ubuntu Mono:size=13
 URxvt.scrollBar:	false
-URxvt.internalBorder:   100
+URxvt.internalBorder:   5
 URxvt.transparent:      false
 URxvt.shading:          10
 
@@ -57,8 +57,8 @@ rofi.color-normal:	#353535, #FFFFFF, #3D3D3D, #E95420, #353535
 !rofi.color-urgent:	#002b37, #da4281, #003643, #008ed4, #890661
 
 ! rofi.fake-transparency:	false
-!rofi.lines:		8
+! rofi.lines:		8
 ! rofi.bw:		0
 ! rofi.opacity:		"10"
-rofi.hide-scrollbar:	true
+! rofi.hide-scrollbar:	true
 ! rofi.width:		30
