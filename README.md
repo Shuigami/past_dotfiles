@@ -39,4 +39,4 @@ The files `.vimrc` and `.Xresources` must be in your home folder, the folder nam
       polybar/
       rofi/
 ```
-> **WARNING**: Be careful, or else!
+> **WARNING**: The folder `screenshot` should not be anywhere (except if you want to keep my screenshots on your computer)
