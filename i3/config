@@ -119,27 +119,27 @@ set $ws9 "9"
 set $ws10 "10"
 
 # switch to workspace
-bindsym $mod+ampersand workspace number $ws1
-bindsym $mod+eacute workspace number $ws2
-bindsym $mod+quotedbl workspace number $ws3
-bindsym $mod+apostrophe workspace number $ws4
-bindsym $mod+parenleft workspace number $ws5
-bindsym $mod+minus workspace number $ws6
-bindsym $mod+egrave workspace number $ws7
-bindsym $mod+underscore workspace number $ws8
-bindsym $mod+ccedilla workspace number $ws9
-bindsym $mod+agrave workspace number $ws10
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
-bindsym $mod+Shift+eacute move container to workspace number $ws2
+bindsym $mod+Shift+2 move container to workspace number $ws2
 bindsym $mod+Shift+3 move container to workspace number $ws3
 bindsym $mod+Shift+4 move container to workspace number $ws4
 bindsym $mod+Shift+5 move container to workspace number $ws5
 bindsym $mod+Shift+6 move container to workspace number $ws6
-bindsym $mod+Shift+egrave move container to workspace number $ws7
+bindsym $mod+Shift+7 move container to workspace number $ws7
 bindsym $mod+Shift+8 move container to workspace number $ws8
-bindsym $mod+Shift+ccedilla move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws9
 bindsym $mod+Shift+agrave move container to workspace number $ws10
 
 exec feh --bg-fill ~/Pictures/Wallpaper/bg.jpg
@@ -183,28 +183,20 @@ bindsym $mod+r mode "resize"
 for_window [class=".*"] border pixel 4
 for_window [class=".*"] title_format " %title"
 gaps inner 10
-smart_gaps on
+
 smart_borders on
+border_radius 3
+
 
 # colour of border, background, text, indicator, and child_border
-#client.focused              #bf616a #2f343f #d8dee8 #bf616a #d8dee8
-#client.focused_inactive     #2f343f #2f343f #d8dee8 #2f343f #2f343f
-#client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
-#client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f
-#client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
-#client.background           #2f343f
 
-client.focused              #bf616a #bf616a #d8dee8 #bf616a #bf616a
+# Green
+client.focused              #82b3ab #82b3ab  #d8dee8 #bf616a #bf616a
+# Red
+# client.focused              #bf616a #bf616a #d8dee8 #bf616a #bf616a
+
 client.focused_inactive     #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.background           #2f343f
-
-# class                 border  backgr. text    indicator child_border
-#client.focused          #4c7899 #285577 #ffffff #2e9ef4   #285577
-#client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
-#client.unfocused        #333333 #222222 #888888 #292d2e   #222222
-#client.urgent           #2f343a #900000 #ffffff #900000   #900000
-#client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
-#client.background       #ffffff
