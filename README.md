@@ -10,6 +10,7 @@ The things that need to be install :
 - polybar
 - betterdiscord
 - betterlockscreen
+- [i3lock-color](https://github.com/Raymo111/i3lock-color)
 - i3-gaps
 - picom
 
