@@ -9,6 +9,9 @@ The things that need to be install :
 - rofi
 - polybar
 - betterdiscord
+- betterlockscreen
+- i3-gaps
+- picom
 
 Screenshots
 ---
