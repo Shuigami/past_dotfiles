@@ -6,13 +6,13 @@ Requirement
 The things that need to be install :
 - Urxvt
 - vim
-- rofi
-- polybar
+- [rofi](https://github.com/davatorium/rofi)
+- [polybar](https://github.com/polybar/polybar)
 - betterdiscord
-- betterlockscreen
+- [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)
 - [i3lock-color](https://github.com/Raymo111/i3lock-color)
-- i3-gaps
-- picom
+- [i3-gaps](https://github.com/Airblader/i3)
+- [picom](https://github.com/yshui/picom)
 
 Screenshots
 ---
