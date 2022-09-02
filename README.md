@@ -27,11 +27,11 @@ Here are some screenshot of what my config looks like :
 
 
 **Rofi menu :**
-![Alt text](Screenshots/rofi-menu-screenshot.png?raw=true "Rofi menu screenshot")
+![Alt text](Screenshots/rofi-dmenu.png?raw=true "Rofi menu screenshot")
 
 
 **Rofi powermenu :**
-![Alt text](Screenshots/rofi-powermenu-screenshot.png?raw=true "Rofi powermenu screenshot")
+![Alt text](Screenshots/rofi-powermenu.png?raw=true "Rofi powermenu screenshot")
 
 
 Directories
