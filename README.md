@@ -51,5 +51,6 @@ The files `.vimrc` and `.Xresources` must be in your home folder, the folder nam
       i3/
       polybar/
       rofi/
+      picom.conf
 ```
 > **WARNING**: The folder `screenshot` should not be anywhere (except if you want to keep my screenshots on your computer)
