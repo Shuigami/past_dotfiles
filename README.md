@@ -26,16 +26,12 @@ Here are some screenshot of what my config looks like :
 ![Alt text](Wallpaper/bg_blurred_sized.png?raw=true "Blurry background")
 
 
-**Global looking :**
-![Alt text](screenshot/screenshot.png?raw=true "screenshot")
-
-
 **Rofi menu :**
-![Alt text](screenshot/rofi-menu-screenshot.png?raw=true "Rofi menu screenshot")
+![Alt text](Screenshots/rofi-menu-screenshot.png?raw=true "Rofi menu screenshot")
 
 
 **Rofi powermenu :**
-![Alt text](screenshot/rofi-powermenu-screenshot.png?raw=true "Rofi powermenu screenshot")
+![Alt text](Screenshots/rofi-powermenu-screenshot.png?raw=true "Rofi powermenu screenshot")
 
 
 Directories
