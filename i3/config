@@ -53,8 +53,8 @@ bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+A kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec ~/.config/rofi/launcher.sh
-bindsym $mod+Shift+e exec ~/.config/rofi/scripts/powermenu.sh
+bindsym $mod+d exec ~/.config/rofi/dmenu/launcher.sh
+bindsym $mod+Shift+e exec ~/.config/rofi/powermenu/powermenu.sh
 
 # change focus
 bindsym $mod+j focus left
@@ -182,16 +182,15 @@ bindsym $mod+r mode "resize"
 
 for_window [class=".*"] border pixel 4
 for_window [class=".*"] title_format " %title"
-gaps inner 10
+gaps inner 15 
 
 smart_borders on
-border_radius 3
-
+# border_radius 3
 
 # colour of border, background, text, indicator, and child_border
 
 # Green
-client.focused              #82b3ab #82b3ab  #d8dee8 #bf616a #bf616a
+client.focused              #82b3ab #82b3ab #d8dee8 #bf616a #bf616a
 # Red
 # client.focused              #bf616a #bf616a #d8dee8 #bf616a #bf616a
 
