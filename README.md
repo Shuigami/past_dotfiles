@@ -25,6 +25,8 @@ Here are some screenshot of what my config looks like :
 **Blurry background (used for lock screen) :**
 ![Alt text](Wallpaper/bg_blurred_sized.png?raw=true "Blurry background")
 
+**Gloab looking :**
+![Alt text](Screenshots/global-looking.png?raw=true "Rofi menu screenshot")
 
 **Rofi menu :**
 ![Alt text](Screenshots/rofi-dmenu.png?raw=true "Rofi menu screenshot")
