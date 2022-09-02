@@ -16,7 +16,7 @@ The things that need to be install :
 
 Screenshots
 ---
-Here are some screenshot of waht my config looks like :
+Here are some screenshot of what my config looks like :
 
 **Background :**
 ![Alt text](Wallpaper/bg.jpg?raw=true "Background")
