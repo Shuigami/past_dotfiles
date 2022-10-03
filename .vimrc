@@ -96,6 +96,13 @@ nnoremap <C-o><C-f> :NERDTreeFocus<CR>
 "" Tabnine ""
 Plugin 'zxqfl/tabnine-vim' 
 
+"" OneDark ""
+packadd! onedark.vim
+Plugin 'joshdick/onedark.vim'
+
+"" VimPolyglot ""
+Plugin 'sheerun/vim-polyglot'
+
 ""  ""
 inoremap <expr> <Tab> pumvisible() ? '<C-n>' :                                                                                                                    
 \ getline('.')[col('.')-2] =~# '[[:alnum:].-_#$]' ? '<C-x><C-o>' : '<Tab>'
@@ -159,6 +166,7 @@ filetype plugin indent on
 " set termguicolors
 " set background=dark
 " colorscheme onehalfdark
+colorscheme onedark
 
 "" Tabline ""
 let g:airline_theme='onehalfdark'
@@ -175,6 +183,21 @@ let g:auto_save = 1
 
 "" Ctrl-f Seach "
 nnoremap <C-F> /
+
+"" Run C ""
+nnoremap <F3> :call RunCode()<CR>
+function RunCode()
+    if &ft == 'c'
+    w !gcc -Wall -Wextra -Werror -std=c99 -O1 -o main *.c && ./main && rm ./main
+    " w !make && make run
+  elseif &ft == 'python'
+    w !python %:p
+  elseif &ft == "cs"
+    w !dotnet run
+  else
+    w !make && make run
+  endif
+endfunction
 
 "" Close brackets for C# ""
 autocmd Filetype {cs,py,c,cpp,h} call SetCSharpAutocompletion()
